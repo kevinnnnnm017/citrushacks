@@ -1,0 +1,21 @@
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    position:relative;
+    top: 110px;
+    font-family:verdana;
+}
+
+.center {
+    text-align: center;
+    width:100%;
+    top: 40px;
+    margin-top: 140px;
+}
+
+/* I want to move everything down */
+.searchAndButton {
+    position:relative;
+    top: 100px;
+}

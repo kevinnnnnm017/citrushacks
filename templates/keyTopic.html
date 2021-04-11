@@ -1,0 +1,18 @@
+{% extends 'blank.html' %}
+
+
+{% block content %}
+    <form method = "POST" action="/summary">
+        <h1 style="padding: 10px; font-family:verdana; top: 80px;">Key words present: afterward, find your PDF notes downloaded!</h1>
+        {% for i in new_array %} 
+            <ul style="text-align: center; margin-top: 50px; font-weight: bold; font-size: 18px;">
+                <a href="en.wikipedia.org/wiki/treatment">{{ i }}</a>
+            </ul>
+        {% endfor %}
+
+        <div class="divClass" style="text-align: center;">
+
+        </div>
+    </form>
+    
+{% endblock content %} 
