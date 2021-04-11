@@ -1,0 +1,15 @@
+{% extends 'first.html' %}
+
+{% block content %}
+
+    <form method = "POST" action="/topics">
+        <div class="input-group mb-3">
+            <input type="text" name="videoURL" placeholder="Enter URL..." class="form-control">
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn-primary btn-lg justify-content-center">
+                Get Summary!
+            </button> 
+        </div>
+    </form>
+{% endblock content %} 
